@@ -1,0 +1,56 @@
+
+.hello{
+    text-align: center;
+    text-decoration-line: underline;
+ } 
+
+.hello3{
+    text-align: center;}
+
+.img1 {
+        display: block;        
+        margin-left: auto;
+        margin-right: auto;       
+}
+.mus1{
+    text-align: center;
+    text-decoration-line: underline;
+}
+.fig12{
+    text-align: center;
+    font: caption;
+}
+.div4{
+    margin-top: 50px;
+}
+.img4{
+    margin-left: 50px;
+}
+.p5{
+    font-size: medium;
+}
+.div10{
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top : 50%;
+    display: block; 
+    margin-top: 50px;       
+    margin-left: auto;
+    margin-right: auto; 
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Karl_van_Beethoven_Miniature_Portrait.jpg/225px-Karl_van_Beethoven_Miniature_Portrait.jpg);
+    background-size: 100% 100%;
+    box-shadow: 2px 3px 10px 5px;
+    animation: slider 9s infinite linear;
+}
+ @keyframes slider {
+    0%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Karl_van_Beethoven_Miniature_Portrait.jpg/225px-Karl_van_Beethoven_Miniature_Portrait.jpg);}
+    35%{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Beethoven_M%C3%A4hler_1815.jpg/255px-Beethoven_M%C3%A4hler_1815.jpg);  }
+    75%{background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ludwig_Van_Beethoven_LCCN2003663902.jpg/255px-Ludwig_Van_Beethoven_LCCN2003663902.jpg);}
+ }
+ .last{
+    margin-top: 50px;
+    text-align: center;
+    font-style: italic;
+    color:indianred;
+ }
